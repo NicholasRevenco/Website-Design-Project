@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(234, 236, 239)
+}
+
+.margin_below_navbar {
+  margin-top: 50px;
+}
+
+.index_padding {
+  padding-bottom: 2%;
+}
+
+.nav_home {
+  width: 30px;
+  margin: 0px;
+}
+
+.row_layout {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.overlay_layout {
+  background-color: rgb(234, 236, 239);
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+  opacity: .9;
+  margin-top: 5px;
+  color: rgb(112, 118, 126);
+  height: 38px;
+}
+
+.kbd_site_style {
+  background-color: rgb(207, 107, 100);
+}
+
+.red_bg {
+  background-color: rgb(224, 101, 97);
+}
+
+.white_bg {
+  background-color: rgb(255, 255, 255);
+}
+
+.white_text {
+  color: white;
+}
+
+#kasparovchess_margintop {
+  margin-top: 23px;
+}
+
+#leela_margintop {
+  margin-top: 40px;
+}
+
+#fide_margintop {
+  margin-top: 25px;
+}
+
+#komodo_margintop {
+  margin-top: 40px;
+}
+
+#offcanvas_textsize {
+  font-size: 12px;
+}
+
+#canvas_height_id {
+  height: 35px;
+}
+
+#toast_width {
+  width: 50%;
+}
+
+#toast_container_style {
+  margin-left: 28%;
+  margin-top: 15px;
+}
+
+#jumbotron_margin-top {
+  margin-top; 200px;
+}
+
+#champions_table_margin {
+  margin-top: 10px;
+}
+
+#popover_container_style {
+  margin-left: 15%;
+  width: 15%;
+  margin-top: 15px;
+}
+
+.header {
+  color: white;
+  margin-top: 46px;
+  padding: 20px;
+  text-align: center;
+}
+
+#homeHeader {
+  background-image:url("https://cdn.hswstatic.com/gif/chess-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+  background-attachment: cover;
+  background-size: cover;
+}
