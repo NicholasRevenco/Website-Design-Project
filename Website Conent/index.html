@@ -20,39 +20,38 @@
     <nav class="navbar navbar-expand navbar-dark fixed-top" id="nav_color">
       <div class="container-fluid">
         </button>
-        <div class="collapse navbar-collapse" id="mynavbar">
+        <div class="collapse navbar-collapse nav_height" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html"><img class="nav_home" src="https://www.freepnglogos.com/uploads/chess/king-chess-piece-knight-queen-king-png-download-1.png" alt="Home"/></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="history.html">History</a>
+            <li class="nav-item nav_links_margin">
+              <a class="nav-link text-dark" href="history.html">History</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Players</a>
+            <li class="nav-item dropdown nav_links_margin">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">Players</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item disabled" href="#">Magnus Carlsen</a></li>
-                <li><a class="dropdown-item disabled" href="#">Bobby Fischer</a></li>
-                <li><a class="dropdown-item disabled" href="#">Viswanathan Anand</a></li>
-                <li><a class="dropdown-item disabled" href="#">Anatoly Karpov</a></li>
+                <li><a class="dropdown-item" href="#">Magnus Carlsen</a></li>
+                <li><a class="dropdown-item" href="#">Bobby Fischer</a></li>
+                <li><a class="dropdown-item" href="#">Viswanathan Anand</a></li>
+                <li><a class="dropdown-item" href="#">Anatoly Karpov</a></li>
               </ul>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Openings</a>
+            <li class="nav-item dropdown nav_links_margin">
+              <a class="nav-link dropdown-toggle text-dark" href="#" role="button" data-bs-toggle="dropdown">Openings</a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item disabled" href="#">Sicilian Defense</a></li>
-                <li><a class="dropdown-item disabled" href="#">French Defense</a></li>
-                <li><a class="dropdown-item disabled" href="#">Ruy López Opening</a></li>
-                <li><a class="dropdown-item disabled" href="#">Caro-Kann Defense</a></li>
+                <li><a class="dropdown-item" href="#">Sicilian Defense</a></li>
+                <li><a class="dropdown-item" href="#">French Defense</a></li>
+                <li><a class="dropdown-item" href="#">Ruy López Opening</a></li>
+                <li><a class="dropdown-item" href="#">Caro-Kann Defense</a></li>
               </ul>
             </li>
           </ul>
           <!-- Not working search bar -->
           <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Search">
-            <button class="btn bg-dark text-muted" type="button">Search</button>
+            <input class="form-control me-2 nav_search" type="text" placeholder="Search">
+            <button class="btn bg-dark text-light" type="button">Search</button>
           </form>
-
         </div>
       </div>
     </nav>
@@ -146,9 +145,90 @@
             </div>
           </div>
         </div>
-      </div>
 
+        <div class="col-sm-6 col-md-6 col-lg-3 verticle_line" id="row_margin_bottom">
+          <a href="https://www.chess.com/" target="_blank">
+            <div class="card bg-danger">
+              <div class="card-body">
+                <img class="card-img-top" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/SamCopeland/phpmeXx6V.png">
+                <div class="card-img-overlay">
+                  <div class="rounded overlay_layout">
+                    <p class="card-title text-dark">Chess.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-3 index_padding">
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <a href="https://lichess.org/" target="_blank">
+                  <div class="card card_bg">
+                    <div class="card-body">
+                      <img class="card-img-top" src="https://static-00.iconduck.com/assets.00/lichess-icon-512x512-q0oh5bwk.png">
+                      <div class="card-img-overlay">
+                        <div class="rounded overlay_layout">
+                          <p class="card-title text-dark">LiChess</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col">
+              <a href="https://chess24.com/en" target="_blank">
+                <div class="card card_bg">
+                  <div class="card-body">
+                  <img class="card-img-top" src="https://play-lh.googleusercontent.com/MCkIDHKqaQn0F86BJ3vFSWZfS50G93QSk69uwtGYK2ENVkKCawPYc7hYiGy3LjsO5g">
+                    <div class="card-img-overlay">
+                      <div class="rounded overlay_layout">
+                        <p class="card-title">Chess24</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col pt-4">
+              <div class="card">
+                <a href="https://www.chessclub.com/" target="_blank">
+                  <div class="card card_bg">
+                    <div class="card-body">
+                    <img class="card-img-top" src="https://play-lh.googleusercontent.com/3V8tHCk3ILX1hby84yu-4T9cQHGpmXy3PrXLouoxwqn2FTT8shbBS0wSE-fmF-Ga5Q">
+                      <div class="card-img-overlay">
+                        <div class="rounded overlay_layout">
+                          <p class="card-title">ICC</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col pt-4">
+              <div class="card">
+                <a href="http://playchess.com/" target="_blank">
+                  <div class="card-body">
+                    <img class="card-img-top" src="https://image.winudf.com/v2/image1/Y2hlc3NiYXNlLmFuZHJvaWQucGxheWNoZXNzX2ljb25fMTU2Njk5NzM5MF8wMTc/icon.png?w=&fakeurl=1">
+                    <div class="card-img-overlay">
+                      <div class="rounded overlay_layout">
+                        <p class="card-title">PlayChess</p>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+
   <!-- </div> -->
   </body>
 </html>

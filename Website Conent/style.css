@@ -44,6 +44,55 @@ body {
   color: white;
 }
 
+.verticle_line {
+  border-left: 6px solid gray;
+  height: 33%;
+  border-radius: 5px;
+}
+
+.nav_height {
+  height: 40px;
+}
+
+.nav_links_margin {
+  margin-top: 2.5px;
+}
+
+.nav_search {
+  border-radius: 8px;
+  border: none;
+}
+
+.header_text_center {
+  margin-top: 50px;
+}
+
+.header {
+  color: white;
+  margin-top: 46px;
+  padding-top: 20px;
+  text-align: center;
+  height: 200px;
+}
+
+#homeHeader {
+  background-image:url("https://cdn.hswstatic.com/gif/chess-4.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+  background-attachment: cover;
+  background-size: cover;
+}
+
+#row_margin_bottom {
+   margin-bottom: 20px;
+}
+
+#nav_color {
+  background-color: rgb(234, 236, 239);
+  opacity: .95;
+}
+
 /* #kasparovchess_margintop {
   margin-top: 23px;
 }
@@ -90,32 +139,3 @@ body {
   width: 15%;
   margin-top: 15px;
 } */
-
-.header {
-  color: white;
-  margin-top: 46px;
-  padding-top: 20px;
-  text-align: center;
-  height: 200px;
-}
-
-#homeHeader {
-  background-image:url("https://cdn.hswstatic.com/gif/chess-4.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-origin: center;
-  background-attachment: cover;
-  background-size: cover;
-}
-
-.header_text_center {
-  margin-top: 50px;
-}
-
-#row_margin_bottom {
-   margin-bottom: 20px;
-}
-
-#nav_color {
-  background-color: rgb(95, 103, 117);
-}
