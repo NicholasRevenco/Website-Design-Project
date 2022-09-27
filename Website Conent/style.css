@@ -70,10 +70,14 @@ body {
 
 .header {
   color: white;
-  margin-top: 46px;
+  margin-top: 60px;
   padding-top: 20px;
   text-align: center;
   height: 200px;
+}
+
+.margin_bottom_openings {
+  margin-bottom: 15px;
 }
 
 #homeHeader {
