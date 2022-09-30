@@ -109,3 +109,13 @@ body {
 #gameknot_profile {
   height: 100%; padding-top: 33%;
 }
+
+#carousel_hr {
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+#carousel_container {
+  padding-bottom: 15px;
+  max-width: 600px;"
+}
