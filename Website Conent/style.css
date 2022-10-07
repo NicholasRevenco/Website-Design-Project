@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(234, 236, 239)
+  background-color: rgb(191, 191, 184)
 }
 
 .margin_below_navbar {
@@ -34,7 +34,7 @@ body {
 }
 
 .red_bg {
-  background-color: rgb(224, 101, 97);
+  background-color: rgb(163, 126, 126);
 }
 
 .white_bg {
@@ -73,7 +73,6 @@ body {
   margin-top: 60px;
   padding-top: 20px;
   text-align: center;
-  height: 200px;
 }
 
 .margin_bottom_openings {
@@ -81,7 +80,7 @@ body {
 }
 
 #homeHeader {
-  background-image:url("https://cdn.hswstatic.com/gif/chess-4.jpg");
+  background-image:url("https://wallpaperaccess.com/full/1231810.png");
   background-repeat: no-repeat;
   background-position: center;
   background-origin: center;
