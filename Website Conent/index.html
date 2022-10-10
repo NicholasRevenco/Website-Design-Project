@@ -20,7 +20,7 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-sm bg_dark navbar-light fixed-top" id="nav_color">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img class="nav_home" alt="Home Logo" src="https://www.freepnglogos.com/uploads/chess/king-chess-piece-knight-queen-king-png-download-1.png"/></a>
+        <a class="navbar-brand" style="margin-left: 5%; margin-right: 5%;" href="#"><img class="nav_home" alt="Home Logo" src="https://www.freepnglogos.com/uploads/chess/king-chess-piece-knight-queen-king-png-download-1.png"/></a>
         <!-- Collapse button for navbar when screen is small -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  style="border: none; color: black;" data-bs-target="#nav_collapse">
           <span class="navbar-toggler-icon"></span>
@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="nav_collapse">
           <ul class="navbar-nav me-auto">
             <li class="nav-item nav_links_margin">
-              <a class="nav-link text-dark verticle_line_nav" href="history.html">History</a>
+              <a class="nav-link text-dark verticle_line_nav" href="#">History</a>
             </li>
             <li class="nav-item dropdown nav_links_margin">
               <a class="nav-link dropdown-toggle text-dark" role="button" data-bs-toggle="dropdown">Players</a>
@@ -203,81 +203,84 @@
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container">
-      <div class="container text-black rounded" style="padding-top: 15px; background-color: rgb(240, 240, 240);">
+      <div class="container" style="height: 50%;">
         <div class="row row_layout">
-          <h3 style="text-align: center;">Website Rating</h3>
-          <p style="margin-left: 15px;">1. Chess.com</p>
-          <blockquote cite="https://en.wikipedia.org/wiki/Chess.com" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">An internet chess server, news website, and social networking website with 93+ million users</blockquote>
-          <p style="margin-left: 15px;">2. LiChess</p>
-          <blockquote cite="https://en.wikipedia.org/wiki/Lichess" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">A free and open-source internet chess server run by a non-profit organization of the same name with 15+ million users</blockquote>
-          <p style="margin-left: 15px;">3. Chess24</p>
-          <blockquote cite="https://en.wikipedia.org/wiki/Chess24" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">An internet chess server established in 2014 by German grandmaster Jan Gustafsson and Enrique Guzman with an estimate 5+ million users</blockquote>
-          <p style="margin-left: 15px;">4. ICC</p>
-          <blockquote cite="https://en.wikipedia.org/wiki/Internet_Chess_Club" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">Internet Chess Club is a commercial internet chess server devoted to the play and discussion of chess and chess </blockquote>
-          <p style="margin-left: 15px;">5. PlayChess</p>
-          <blockquote cite="https://en.wikipedia.org/wiki/Playchess" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">A commerical internet chess server managed by ChessBase devoted to the play and discussion of chess and chess variants</blockquote>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <div class="container text-black rounded">
+              <h3 style="text-align: center;">Website Rating</h3>
+              <p style="margin-left: 15px;">1. Chess.com</p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Chess.com" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">An internet chess server, news website, and social networking website with 93+ million users</blockquote>
+              <p style="margin-left: 15px;">2. LiChess</p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Lichess" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">A free and open-source internet chess server run by a non-profit organization of the same name with 15+ million users</blockquote>
+              <p style="margin-left: 15px;">3. Chess24</p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Chess24" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">An internet chess server established in 2014 by German grandmaster Jan Gustafsson and Enrique Guzman with an estimate 5+ million users</blockquote>
+              <p style="margin-left: 15px;">4. ICC</p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Internet_Chess_Club" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">Internet Chess Club is a commercial internet chess server devoted to the play and discussion of chess and chess </blockquote>
+              <p style="margin-left: 15px;">5. PlayChess</p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Playchess" style="margin-left: 15px; color: gray; font-size: 15px; margin-top: -15px;">A commerical internet chess server managed by ChessBase devoted to the play and discussion of chess and chess variants</blockquote>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-6">
+            <img class="rounded" style="width: 75%; height: 85%; max-width: 250px; margin-left: 25%; margin-right: auto;" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpeNfG7n.png">
+          </div>
         </div>
       </div>
     </div>
 
-    <hr style="margin-bottom: 35px;"/>
-
-    <div class="container">
-      <div class="bg-dark text-white rounded" style="padding-top: 15px; padding-bottom: 5px; margin-bottom: 25px;">
-        <h2 style="text-align: center;">Famous Photos</h2>
-      </div>
-      <div id="chess_carousel" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="2"></button>
-          <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="3"></button>
+    <div class="bg-dark" style="padding-top: 35px; margin-top: 35px; padding-bottom: 35px; margin-bottom: 35px;">
+      <div class="container">
+        <div class="bg-light text-black rounded" style="padding-top: 15px; padding-bottom: 5px; margin-bottom: 25px;">
+          <h2 style="text-align: center;">Famous Photos</h2>
         </div>
+        <div id="chess_carousel" class="carousel slide" data-bs-ride="carousel">
 
-        <!-- The slideshow/carousel -->
-        <div class="carousel-inner rounded">
-          <div class="carousel-item active">
-            <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://chessforsharks.com/wp-content/uploads/2022/01/fischer-spassky-1024x638.jpg" alt="Bobby Fischer and Garry Kasparov" class="d-block" style="width:100%"/>
-            <div class="carousel-caption">
-              <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">"The Match of the Century" - Bobby Fischer and Garry Kasparov 1972 World Chess Championship</p>
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="3"></button>
+          </div>
+
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner rounded">
+            <div class="carousel-item active">
+              <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://chessforsharks.com/wp-content/uploads/2022/01/fischer-spassky-1024x638.jpg" alt="Bobby Fischer and Garry Kasparov" class="d-block" style="width:100%"/>
+              <div class="carousel-caption">
+                <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">"The Match of the Century" - Bobby Fischer and Garry Kasparov 1972 World Chess Championship</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://i.guim.co.uk/img/media/c16c31cedd1a3e1bbd9119a63842c5bd0442ca74/0_71_2038_1223/master/2038.jpg?width=465&quality=85&fit=max&s=2ae34e235446a1f1fdc92216ff6da0bb" alt="Garry Kasparov and IBM Computer" class="d-block" style="width:100%"/>
+              <div class="carousel-caption">
+                <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">Garry Kasparov versus IBM's Deep Blue 1996</p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/134242-vuememruvj-1578467299.jpg" alt="Viswanathan Anand and Vladimir Kramnik" class="d-block" style="width:100%"/>
+              <div class="carousel-caption">
+                <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">Viswanathan Anand and Vladimir Kramnik 2008 World Chess Championship</p>
+              </div>
+            </div>
+            <div class="carousel-item ">
+              <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://img.bleacherreport.net/img/images/photos/003/776/863/hi-res-1844fe40c53574408e3eb7eae948475a_crop_north.jpg?1543084315&w=3072&h=2048" alt="Magnus Carlsen and Fabiano Caruana" class="d-block" style="width:100%"/>
+              <div class="carousel-caption">
+                <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">Magnus Carlsen and Fabiano Caruana 2018 World Chess Championship</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://i.guim.co.uk/img/media/c16c31cedd1a3e1bbd9119a63842c5bd0442ca74/0_71_2038_1223/master/2038.jpg?width=465&quality=85&fit=max&s=2ae34e235446a1f1fdc92216ff6da0bb" alt="Garry Kasparov and IBM Computer" class="d-block" style="width:100%"/>
-            <div class="carousel-caption">
-              <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">Garry Kasparov versus IBM's Deep Blue 1996</p>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://s01.sgp1.cdn.digitaloceanspaces.com/article/134242-vuememruvj-1578467299.jpg" alt="Viswanathan Anand and Vladimir Kramnik" class="d-block" style="width:100%"/>
-            <div class="carousel-caption">
-              <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">Viswanathan Anand and Vladimir Kramnik 2008 World Chess Championship</p>
-            </div>
-          </div>
-          <div class="carousel-item ">
-            <img class="d-block w-100" style="object-fit: cover; object-position: cover; height: 66vh; overflow: hidden;" src="https://img.bleacherreport.net/img/images/photos/003/776/863/hi-res-1844fe40c53574408e3eb7eae948475a_crop_north.jpg?1543084315&w=3072&h=2048" alt="Magnus Carlsen and Fabiano Caruana" class="d-block" style="width:100%"/>
-            <div class="carousel-caption">
-              <p style="size: 15px; color: black; background-color: white; opacity: .9; width: 100%; border-radius: 5px; padding: 5px;">Magnus Carlsen and Fabiano Caruana 2018 World Chess Championship</p>
-            </div>
-          </div>
+
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#chess_carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#chess_carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
-
-        <!-- Left and right controls/icons -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#chess_carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#chess_carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span>
-        </button>
       </div>
     </div>
-
-    <hr/ style="margin-bottom: 40px; margin-top: 40px;">
 
     <div class="container">
       <div class="bg-dark text-white rounded" style="padding-top: 15px; padding-bottom: 5px; margin-bottom: 25px;">
