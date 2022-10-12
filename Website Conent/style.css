@@ -8,6 +8,7 @@ body {
 
 .index_padding {
   padding-bottom: 2%;
+  padding-top: 35px;
 }
 
 .nav_home {
@@ -79,13 +80,14 @@ body {
   margin-bottom: 15px;
 }
 
-#homeHeader {
+#home_header {
   background-image:url("Images/home_header_image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-origin: center;
   background-attachment: cover;
   background-size: cover;
+  height: 400px;
 }
 
 #row_margin_bottom {
@@ -107,4 +109,174 @@ body {
 
 #gameknot_profile {
   height: 100%; padding-top: 33%;
+}
+
+#website_ratng_container {
+  height: 50%;
+}
+
+#website_rating_margin {
+  margin-left: 15px;
+}
+
+#website_rating_center {
+  text-align: center;
+}
+
+#website_rating_info {
+  margin-left: 15px;
+  color: gray;
+  font-size: 15px;
+  margin-top: -15px;s
+}
+
+#website_rating_whiteimage {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 35px;
+}
+
+#website_rating_greenimage {
+  width: 100%;
+  max-width: 400px;
+}
+
+#carousel_styling {
+  padding-top: 35px;
+  margin-top: 35px;
+  padding-bottom: 35px;
+  margin-bottom: 35px;"
+}
+
+#carousel_famous_photos_styling {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.carousel_image_styling {
+  object-fit: cover;
+  object-position: cover;
+  height: 66vh;
+  overflow: hidden;
+}
+
+.carousel_image_text_styling {
+  size: 15px;
+  color: black;
+  background-color: white;
+  opacity: .9;
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#designed_by {
+  text-align: center;
+  padding-top: 15px;"
+}
+
+.text_align_center {
+  text-align: center;
+}
+
+#home_logo_bottom_image_styling {
+  height: 50px;
+  background-color: white;
+  padding: 5px;
+  margin-left: 15px;
+  margin-bottom: -50px
+}
+
+#bottom_header_container {
+  padding-top: 15px;
+  margin-bottom: -20px;
+  padding-bottom: 10px;
+}
+
+.video_styling {
+  height: 150%;
+  width: 100%
+}
+
+.video_margin {
+  margin-bottom: 115px;
+}
+
+.content_container_styling {
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.navbar_button_small {
+  border: none;
+  color: black;
+}
+
+.header_text {
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2s;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: Nunito, Helvetica, Arial, sans-serif;
+  opacity: .7;
+}
+
+.header_website_name_size {
+  font-size: 50px;
+}
+
+#play_styling {
+  font-weight: bold;
+  color: white;
+  margin-top: 2.5px;
+  margin-bottom: 3px;
+  background-color: rgb(143, 84, 84);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#chesscom_card_background {
+   background-color: rgb(143, 84, 84);
+}
+
+#learn_styling {
+  font-weight: bold;
+  color: white;
+  margin-top: 2.5px;
+  margin-bottom: 3px;
+  background-color: rgb(77, 102, 161);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#chessable_card_background {
+  background-color: rgb(77, 102, 161)
+}
+
+#gameknot_center {
+  margin-top: -25px
+}
+
+#chessable_card_height {
+  width: 56%;
+  margin-left: 22%;
+}
+
+.navbar_logo_margin {
+  margin-left: 5%;
+  margin-right: 5%;
 }
