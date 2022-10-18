@@ -27,9 +27,7 @@
 }
 
 .verticle_line {
-  border-left: 6px solid gray;
-  height: 33%;
-  border-radius: 5px;
+  border-left: 1px solid rgb(200, 201, 202);
 }
 
 .nav_links_margin {
