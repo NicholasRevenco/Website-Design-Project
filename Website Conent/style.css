@@ -54,7 +54,7 @@
   background-origin: center;
   background-attachment: cover;
   background-size: cover;
-  height: 400px;
+  height: 75vh;
 }
 
 .carousel_image_styling {
@@ -116,8 +116,9 @@
   opacity: .7;
 }
 
-.header_website_name_size {
+.header_website_name_syling {
   font-size: 50px;
+  margin-top: 200px;
 }
 
 .navbar_logo_margin {
