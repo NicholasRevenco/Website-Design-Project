@@ -27,6 +27,18 @@
   margin-top: 5px;
 }
 
+.navbar-nav {
+  font-family: Montserrat, sans-serif;
+}
+.navbar-nav li a, .navbar .navbar-brand {
+  color: rgb(0, 0, 0) !important;
+  margin-right: 5px;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(44, 47, 51) !important;
+}
+
 .verticle_line {
   border-left: 1px solid rgb(200, 201, 202);
 }
@@ -36,7 +48,7 @@
 }
 
 .nav_search {
-  border-radius: 8px;
+  border-radius: 500px;
   border: none;
 }
 
