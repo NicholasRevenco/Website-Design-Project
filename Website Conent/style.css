@@ -67,7 +67,7 @@
   background-origin: center;
   background-attachment: cover;
   background-size: cover;
-  height: 75vh;
+  height: 86vh;
 }
 
 .carousel_image_styling {
@@ -207,11 +207,13 @@
 }
 
 #kasparov_profile {
-  height: 100%; padding-top: 10%;
+  height: 100%;
+  padding-top: 10%;
 }
 
-#gameknot_profile {
-  height: 100%; padding-top: 33%;
+#gameknot_profile_styling {
+  height: 100%;
+  padding-top: 60%;
 }
 
 #website_rating_margin {
@@ -252,4 +254,12 @@
   padding-bottom: 5px;
   margin-bottom: 25px;
   text-align: center;
+}
+
+#chesstempo_profile_styling {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  width: 100%;
 }
