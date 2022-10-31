@@ -112,6 +112,18 @@
   color: black;
 }
 
+.background_color_white {
+  background-color: white;
+}
+
+.search_height_image {
+  height: 25px;
+}
+
+.border_color_white {
+  border-color: white;
+}
+
 .header_text {
   font-weight: bold;
   color: white;
