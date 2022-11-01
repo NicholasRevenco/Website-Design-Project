@@ -28,7 +28,7 @@
 }
 
 .navbar-nav {
-  font-family: Montserrat, sans-serif;
+  font-family: sans-serif;
 }
 .navbar-nav li a, .navbar .navbar-brand {
   color: rgb(0, 0, 0) !important;
@@ -37,6 +37,16 @@
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: rgb(255, 255, 255) !important;
   background-color: rgb(44, 47, 51) !important;
+}
+
+.button_hover_search:hover {
+  background-color: rgb(210, 210, 210) !important;
+  border-color: rgb(210, 210, 210) !important;
+  border: 4px;
+}
+
+.button_hover_search:active {
+  background-color: rgb(165, 165, 165) !important;
 }
 
 .verticle_line {
@@ -120,7 +130,7 @@
   height: 25px;
 }
 
-.border_color_white {
+.border_white {
   border-color: white;
 }
 
@@ -137,7 +147,7 @@
   padding-right: 30px;
   text-align: center;
   border-radius: 5px;
-  font-family: Nunito, Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   opacity: .7;
 }
 

@@ -59,10 +59,12 @@
             </li>
           </ul>
         <!-- Not working search bar -->
-          <form class="d-flex rounded background_color_white">
-            <input class="form-control me-2" style="border-color: white;" type="text" placeholder="Search">
-            <button class="btn" type="button"><img class="search_height_image" src="Images/search_icon.png"/></button>
+        <!-- Can not remove the inline styling because the classes from bootstrap override them -->
+          <form class="d-flex rounded background_color_white" style="height: 40px;">
+            <input class="form form-control me-2" style="border-color: white;" type="text" placeholder="Search">
+            <button class="btn btn-outline-light button_hover_search" style="border-radius: 0px 5px 5px 0px" type="button"><img class="search_height_image" src="Images/search_icon.png"/></button>
           </form>
+
         </div>
       </div>
     </nav>
