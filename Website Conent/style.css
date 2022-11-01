@@ -40,8 +40,8 @@
 }
 
 .button_hover_search:hover {
-  background-color: rgb(210, 210, 210) !important;
-  border-color: rgb(210, 210, 210) !important;
+  background-color: rgb(195, 195, 195) !important;
+  border-color: rgb(195, 195, 195) !important;
   border: 4px;
 }
 
@@ -122,8 +122,9 @@
   color: black;
 }
 
-.background_color_white {
-  background-color: white;
+.search_styling {
+  background-color: rgb(220, 220, 220);
+  height: 40px;
 }
 
 .search_height_image {
