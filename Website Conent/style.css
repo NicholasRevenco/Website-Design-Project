@@ -1,6 +1,4 @@
-body {
-  border: none;
-}
+
 
 hr {
   width: 0px;
@@ -43,8 +41,7 @@ hr {
   margin-right: 5px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: rgb(255, 255, 255) !important;
-  background-color: rgb(44, 47, 51) !important;
+  color: rgb(100, 100, 100) !important;
 }
 
 .button_hover_search:hover {
@@ -76,7 +73,7 @@ hr {
 
 .home_header {
   color: white;
-  padding-top: 20px;
+  padding-top: 100px;
   text-align: center;
   background-image:url("Images/home_header_image.png");
   background-repeat: no-repeat;
@@ -84,7 +81,7 @@ hr {
   background-origin: center;
   background-attachment: cover;
   background-size: cover;
-  height: 86vh;
+  height: 87vh;
 }
 
 .carousel_image_styling {
@@ -146,7 +143,7 @@ hr {
   font-weight: bold;
   color: white;
   position: absolute;
-  top: 33%;
+  top: 42%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2s;
