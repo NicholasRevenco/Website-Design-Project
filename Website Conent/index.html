@@ -21,9 +21,9 @@
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-sm bg-light fixed-top" id="nav_color">
+    <nav class="navbar navbar-expand-sm bg-light sticky-top" id="nav_color">
       <div class="container-fluid">
-        <a class="navbar-brand navbar_logo_margin" href="#"><img class="nav_home" alt="Chess Pinpoint Logo" src="https://www.freepnglogos.com/uploads/chess/king-chess-piece-knight-queen-king-png-download-1.png"/></a>
+        <a class="navbar-brand navbar_logo_margin" href="#designed_by"><img class="nav_home" alt="Chess Pinpoint Logo" src="https://www.freepnglogos.com/uploads/chess/king-chess-piece-knight-queen-king-png-download-1.png"/></a>
         <!-- Collapse button for navbar when screen is small -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"  id="navbar_button_small" data-bs-target="#nav_collapse">
           <span class="navbar-toggler-icon"></span>
@@ -35,6 +35,28 @@
               <a class="nav-link text-dark verticle_line_nav" href="#"></a>
             </li>
           </ul>
+          <!-- unless you want to create a whole new set of html files for each topic, it would be more effecient to use navs/tabs -->
+          <!-- in the form of:
+          <ul class="nav nav-tabs">
+            <li class="nav-item">
+              <a class="nav-link active" data-bs-toggle="tab" href="#lorem ipsum">lorem ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#lorem ipsum">lorem ipsum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" data-bs-toggle="tab" href="#lorem ipsum">lorem ipsum</a>
+            </li>
+          </ul>
+
+          <div class="tab-content">
+            <div class="tab-pane container active" id="home">...</div>
+            <div class="tab-pane container fade" id="menu1">...</div>
+            <div class="tab-pane container fade" id="menu2">...</div>
+          </div>
+
+          This means that the html content will switch on each click; see "https://getbootstrap.com/docs/5.0/compenents/navs-tabs/"
+         -->
           <ul class="navbar-nav me-auto justify-content-center">
             <li class="nav-item nav_links_margin">
               <a class="nav-link text-dark verticle_line_nav rounded" style="padding-left: 5px;" href="#">History</a>
@@ -71,7 +93,7 @@
 
      <div class="home_header">
        <div class="header_text">
-         <h1 class="header_website_name_syling">Chess Pinpoint</h1>
+         <h1 class="header_website_name_styling">Chess Pinpoint</h1>
          <p>From which website to play on to the openings to use</p>
        </div>
      </div>
