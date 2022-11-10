@@ -44,10 +44,19 @@ hr {
   color: rgb(100, 100, 100) !important;
 }
 
+#button_hover_search_id {
+  border-radius: 0px 5px 5px 0px;
+  border: 0px;"
+}
+
 .button_hover_search:hover {
   background-color: rgb(195, 195, 195) !important;
   border-color: rgb(195, 195, 195) !important;
   border: 4px;
+}
+
+.padding_right_five {
+  padding-right: 5%;
 }
 
 .button_hover_search:active {
@@ -164,6 +173,10 @@ hr {
 .navbar_logo_margin {
   padding-left: 5%;
   padding-right: 5%;
+}
+
+.padding_left_five {
+  padding-left: 5px;
 }
 
 #play_styling {
