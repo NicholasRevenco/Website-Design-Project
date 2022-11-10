@@ -179,6 +179,10 @@ hr {
   padding-left: 5px;
 }
 
+.border_color_black {
+  border-color: black;
+}
+
 #play_styling {
   font-weight: bold;
   color: white;
@@ -304,6 +308,6 @@ hr {
 }
 
 #profile_content_height {
-  min-height: 500px;
-  padding-top: 5%;
+  min-height: 600px;
+  padding-top: 6.5%;
 }
