@@ -302,3 +302,8 @@ hr {
   padding-bottom: 10%;
   width: 100%;
 }
+
+#profile_content_height {
+  min-height: 500px;
+  padding-top: 5%;
+}
