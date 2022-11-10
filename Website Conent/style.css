@@ -1,4 +1,7 @@
-
+* {
+  box-sizing: border-box;
+  font-family: "Asap", sans-serif;
+}
 
 hr {
   width: 0px;
@@ -33,15 +36,13 @@ hr {
   margin-top: 5px;
 }
 
-.navbar-nav {
-  font-family: sans-serif;
-}
 .navbar-nav li a, .navbar .navbar-brand {
   color: rgb(0, 0, 0) !important;
   margin-right: 5px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
   color: rgb(100, 100, 100) !important;
+  background-color: rgb(246, 247, 249);
 }
 
 #button_hover_search_id {
