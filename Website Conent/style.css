@@ -184,6 +184,16 @@ hr {
   border-color: black;
 }
 
+.ranking_style {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #play_styling {
   font-weight: bold;
   color: white;
@@ -214,9 +224,6 @@ hr {
   background-color: rgb(77, 102, 161)
 }
 
-#gameknot_center {
-  margin-top: -25px
-}
 
 #chessable_card_height {
   width: 56%;
@@ -249,16 +256,6 @@ hr {
 #nav_color {
   background-color: rgb(234, 236, 239);
   opacity: .95;
-}
-
-#kasparov_profile {
-  height: 100%;
-  padding-top: 10%;
-}
-
-#gameknot_profile_styling {
-  height: 100%;
-  padding-top: 60%;
 }
 
 #website_rating_margin {
@@ -310,5 +307,94 @@ hr {
 
 #profile_content_height {
   min-height: 600px;
-  padding-top: 6.5%;
+  padding-top: 8%;
+  padding-bottom: 8%
+}
+
+/* Had to add IDs because the card class was overridng the styles */
+#border_none_1 {
+  border: none;
+}
+
+#border_none_2 {
+  border: none;
+}
+
+#top_left_border_1 {
+  border-top: none;
+  border-left: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+}
+
+#top_left_border_2 {
+  border-top: none;
+  border-left: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+}
+
+#top_right_border_1 {
+  border-top: none;
+  border-right: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+}
+
+#top_right_border_2 {
+  border-top: none;
+  border-right: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+  height: 100%;
+}
+
+#bottom_left_border_1 {
+  border-bottom: none;
+  border-left: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+}
+
+#bottom_left_border_2 {
+  border-bottom: none;
+  border-left: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+  padding: 10px;
+}
+
+#bottom_right_border_1 {
+  border-bottom: none;
+  border-right: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+}
+
+#bottom_right_border_2 {
+  border-bottom: none;
+  border-right: none;
+  border-color: rgb(25, 28, 31);
+  border-radius: 2px;
+  border-width: 2px;
+  height: 100%;
+  padding-top: 40%;
+}
+
+#padding_top_20px {
+  padding-top: 20px;
+}
+
+#complete_center {
+  padding-left: auto;
+  padding-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
