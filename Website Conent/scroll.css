@@ -1,3 +1,6 @@
+/* I found this code online, but used a bit of my previous knowledge of CSS to understand what happens
+I do not think I really need to explain what each class does, but the @keyframes is special in that instead of instantly going through with what it wants to do, it gradually changes it.*/
+
 .reveal {
   position: relative;
   opacity: 0;
