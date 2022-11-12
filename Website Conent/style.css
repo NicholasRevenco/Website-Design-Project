@@ -81,6 +81,14 @@ hr {
   margin-bottom: 15px;
 }
 
+#smaller_hr {
+  margin-top: -20px;
+}
+
+#small_hr {
+  margin-top: 0px;
+}
+
 .home_header {
   color: white;
   padding-top: 100px;
