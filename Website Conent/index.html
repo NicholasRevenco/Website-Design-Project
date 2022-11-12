@@ -74,11 +74,11 @@
      </div>
 
     <!-- Profiles -->
-    <div class="container reveal fade-bottom" id="profile_content_height">
+    <div class="container" id="profile_content_height">
       <div class="bg-dark text-white rounded content_container_styling">
         <h2>Learn and Play Chess</h2>
       </div>
-      <div class="row row_layout rounded container" id="profiles_shadow">
+      <div class="row row_layout rounded container reveal fade-bottom" id="profiles_shadow">
         <div class="col-6 col-sm-6 col-md-6 col-lg-3" id="row_margin_bottom">
           <div id="play_styling" class="bg-dark">
             <h5>Play</h5>
@@ -199,23 +199,25 @@
 
     <!-- Chess Ranking -->
     <div class="container-flex pt-4 bg-dark p-4" id="website_rating_container">
-      <div class="row reveal fade-right">
+      <div class="row">
         <div class="col-6 col-sm-6 col-md-6 col-lg-6">
           <div class="container text-light rounded">
             <h3 id="website_rating_center" class="bg-light text-dark rounded p-2">Website Ranking</h3>
-            <p id="website_rating_margin" id="padding_top_20px"><a href="https://www.chess.com/" target=”_blank” class="text-light ranking_style">1. Chess.com</a></p>
-            <blockquote cite="https://en.wikipedia.org/wiki/Chess.com" class="website_rating_info">An internet chess server, news website, and social networking website with 93+ million users</blockquote>
-            <p id="website_rating_margin"><a href="https://lichess.org/" target=”_blank” class="text-light ranking_style">2. LiChess</a></p>
-            <blockquote cite="https://en.wikipedia.org/wiki/Lichess" class="website_rating_info">A free and open-source internet chess server run by a non-profit organization of the same name with 15+ million users</blockquote>
-            <p id="website_rating_margin"><a href="https://chess24.com/en" target=”_blank” class="text-light ranking_style">3. Chess24</a></p>
-            <blockquote cite="https://en.wikipedia.org/wiki/Chess24" class="website_rating_info">An internet chess server established in 2014 by German grandmaster Jan Gustafsson and Enrique Guzman with an estimate 5+ million users</blockquote>
-            <p id="website_rating_margin"><a href="https://www.chessclub.com/" target=”_blank” class="text-light ranking_style">4. ICC</a></p>
-            <blockquote cite="https://en.wikipedia.org/wiki/Internet_Chess_Club" class="website_rating_info">Internet Chess Club is a commercial internet chess server devoted to the play and discussion of chess and chess</blockquote>
-            <p id="website_rating_margin"><a href="http://playchess.com/" target=”_blank” class="text-light ranking_style">5. PlayChess</a></p>
-            <blockquote cite="https://en.wikipedia.org/wiki/Playchess" class="website_rating_info">A commerical internet chess server managed by ChessBase devoted to the play and discussion of chess and chess variants</blockquote>
+            <div class="reveal fade-right">
+              <p id="website_rating_margin"><a href="https://www.chess.com/" target=”_blank” class="text-light ranking_style">1. Chess.com</a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Chess.com" class="website_rating_info">An internet chess server, news website, and social networking website with 93+ million users</blockquote>
+              <p id="website_rating_margin"><a href="https://lichess.org/" target=”_blank” class="text-light ranking_style">2. LiChess</a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Lichess" class="website_rating_info">A free and open-source internet chess server run by a non-profit organization of the same name with 15+ million users</blockquote>
+              <p id="website_rating_margin"><a href="https://chess24.com/en" target=”_blank” class="text-light ranking_style">3. Chess24</a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Chess24" class="website_rating_info">An internet chess server established in 2014 by German grandmaster Jan Gustafsson and Enrique Guzman with an estimate 5+ million users</blockquote>
+              <p id="website_rating_margin"><a href="https://www.chessclub.com/" target=”_blank” class="text-light ranking_style">4. ICC</a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Internet_Chess_Club" class="website_rating_info">Internet Chess Club is a commercial internet chess server devoted to the play and discussion of chess and chess</blockquote>
+              <p id="website_rating_margin"><a href="http://playchess.com/" target=”_blank” class="text-light ranking_style">5. PlayChess</a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Playchess" class="website_rating_info">A commerical internet chess server managed by ChessBase devoted to the play and discussion of chess and chess variants</blockquote>
+            </div>
           </div>
         </div>
-        <div class="col-6 col-sm-6 col-md-6 col-lg-6 p-3" id="complete_center">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-6 p-3 reveal fade-right" id="complete_center">
           <div class="row padding_right_five">
             <div class="col-12 col-sm-8 col-md-6 col-lg-6 center">
               <img  class="rounded" id="website_rating_whiteimage" alt="Chess.com image white" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpeNfG7n.png">
@@ -229,11 +231,11 @@
     </div>
 
     <!-- The carousel -->
-    <div id="carousel_styling" class="container reveal fade-bottom">
+    <div id="carousel_styling" class="container">
       <div class="bg-dark text-light rounded" id="carousel_famous_photos_styling">
         <h2>Famous Photos</h2>
       </div>
-      <div id="chess_carousel" class="carousel slide" data-bs-ride="carousel">
+      <div id="chess_carousel" class="carousel slide reveal fade-bottom" data-bs-ride="carousel">
         <!-- Indicators of carousel-->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#chess_carousel" data-bs-slide-to="0" class="active"></button>

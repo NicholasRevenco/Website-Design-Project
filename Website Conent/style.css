@@ -301,8 +301,8 @@ hr {
 
 #profile_content_height {
   min-height: 600px;
-  padding-top: 8%;
-  padding-bottom: 8%
+  padding-top: 7%;
+  padding-bottom: 5%
 }
 
 /* Had to add IDs because the card class was overridng the styles */
