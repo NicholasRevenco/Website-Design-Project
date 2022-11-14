@@ -9,15 +9,19 @@ I do not think I really need to explain what each class does, but the @keyframes
 .reveal.active {
   opacity: 1;
 }
+
 .active.fade-bottom {
   animation: fade-bottom 1.2s ease-in;
 }
+
 .active.fade-left {
   animation: fade-left 1.1s ease-in;
 }
+
 .active.fade-right {
   animation: fade-right 1.1s ease-in;
 }
+
 @keyframes fade-bottom {
   0% {
     transform: translateY(50px);
@@ -28,6 +32,7 @@ I do not think I really need to explain what each class does, but the @keyframes
     opacity: 1;
   }
 }
+
 @keyframes fade-left {
   0% {
     transform: translateX(-100px);

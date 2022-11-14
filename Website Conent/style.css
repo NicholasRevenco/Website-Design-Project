@@ -36,6 +36,11 @@ hr {
   margin-top: 5px;
 }
 
+#test:active {
+  border-color: rgb(216, 214, 214);
+}
+
+
 .navbar-nav li a, .navbar .navbar-brand {
   color: rgb(0, 0, 0) !important;
   margin-right: 5px;
