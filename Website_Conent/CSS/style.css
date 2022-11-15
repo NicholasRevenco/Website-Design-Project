@@ -421,3 +421,25 @@ hr {
 #inside_navbar_dot {
   color: rgb(36, 34, 32);
 }
+
+/*.cha_cha_slide {
+    animation-duration: 8s;
+    animation-name: cha_cha_slide_keyframes;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cha_cha_slide_keyframes {
+  0% {
+    margin-left: 0%;
+  }
+  33% {
+    margin-left: 25%;
+  }
+  66% {
+    margin-left: 0%;
+  }
+  100% {
+    margin-left: -25%;
+  }
+}
+*/
