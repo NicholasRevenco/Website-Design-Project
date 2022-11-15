@@ -98,7 +98,7 @@ hr {
   color: white;
   padding-top: 100px;
   text-align: center;
-  background-image:url("Images/home_header_image.png");
+  background-image:url("../Images/home_header_image.png");
   background-repeat: no-repeat;
   background-position: center;
   background-origin: center;
@@ -408,6 +408,6 @@ hr {
 
 #profiles_shadow {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.05);
-  margin-left: 0%;
-  padding: 5%;
+  padding: 1%;
+  margin: 2px;
 }
