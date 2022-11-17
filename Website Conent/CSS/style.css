@@ -13,6 +13,7 @@ hr {
 }
 
 .nav_home {
+  height: 50px;
   width: 50px;
 }
 
@@ -122,6 +123,10 @@ hr {
   padding-bottom: 5px;
   margin-bottom: 25px;
   text-align: center;
+}
+
+.nav_height {
+  height: 75px;
 }
 
 .search_styling {
