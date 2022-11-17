@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
   font-family: "Asap", sans-serif;
 }
 
@@ -32,7 +31,6 @@ hr {
   margin-top: 5px;
 }
 
-
 .navbar-nav li a, .navbar .navbar-brand {
   color: rgb(0, 0, 0) !important;
   margin-right: 5px;
@@ -44,48 +42,25 @@ hr {
   text-decoration-thickness: 3px;
 }
 
-#button_hover_search_id {
-  border-radius: 0px 5px 5px 0px;
-  border: 0px;"
-}
-
 .button_hover_search:hover {
   background-color: rgb(195, 195, 195) !important;
   border-color: rgb(195, 195, 195) !important;
   border: 4px;
 }
 
-#padding_right_five {
-  padding-right: 5%;
-}
-
 .button_hover_search:active {
   background-color: rgb(165, 165, 165) !important;
 }
 
+.remove_border:hover {
+}
+
+.remove_border:active {
+  border-color: rgb(220, 219, 219) !important;
+}
+
 .nav_links_margin {
   margin-top: 2.5px;
-}
-
-#smaller_hr {
-  margin-top: -20px;
-}
-
-#small_hr {
-  margin-top: 0px;
-}
-
-#home_header {
-  color: white;
-  padding-top: 100px;
-  text-align: center;
-  background-image:url("../Images/home_header_image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-origin: center;
-  background-attachment: cover;
-  background-size: cover;
-  height: 87vh;
 }
 
 .carousel_image_styling {
@@ -138,6 +113,48 @@ hr {
   height: 25px;
 }
 
+.navbar_logo_margin {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.padding_left_five {
+  padding-left: 5px;
+}
+
+.ranking_style {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*.navbar_edge {
+  margin: -20px;
+  padding: 20px;
+  margin-top: 0px;
+}*/
+
+.underline {
+  text-decoration: underline overline;
+  text-decoration-thickness: 2px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row_margin_bottom {
+   margin-bottom: 20px;
+}
+
+.website_rating_margin {
+  margin-left: 15px;
+}
+
+#padding_right_five {
+  padding-right: 5%;
+}
+
 #header_text {
   font-weight: bold;
   color: white;
@@ -154,28 +171,30 @@ hr {
   padding-top: 200px;
 }
 
-.navbar_logo_margin {
-  padding-left: 5%;
-  padding-right: 5%;
+#smaller_hr {
+  margin-top: -20px;
 }
 
-.padding_left_five {
-  padding-left: 5px;
+#small_hr {
+  margin-top: 0px;
 }
 
-.ranking_style {
-  text-decoration: none;
-  font-size: 20px;
+#home_header {
+  color: white;
+  padding-top: 100px;
+  text-align: center;
+  background-image:url("../Images/home_header_image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: center;
+  background-attachment: cover;
+  background-size: cover;
+  height: 87vh;
 }
 
-.underline {
-  text-decoration: underline overline;
-  text-decoration-thickness: 2px;
-}
-
-.center {
-  margin-left: auto;
-  margin-right: auto;
+#button_hover_search_id {
+  border-radius: 0px 5px 5px 0px;
+  border: 0px;
 }
 
 #play_styling {
@@ -224,17 +243,9 @@ hr {
   padding-top: 15px;"
 }
 
-.row_margin_bottom {
-   margin-bottom: 20px;
-}
-
 #nav_color {
   background-color: rgb(234, 236, 239);
   opacity: .95;
-}
-
-.website_rating_margin {
-  margin-left: 15px;
 }
 
 #website_rating_center {
