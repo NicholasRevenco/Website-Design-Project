@@ -29,7 +29,7 @@
       <div class="container-fluid">
         <a class="navbar-brand navbar_logo_margin animate__animated animate__backInDown" href="index.html"><img class="nav_home" alt="Chess Pinpoint Logo" src="https://www.freepnglogos.com/uploads/chess/king-chess-piece-knight-queen-king-png-download-1.png"/></a>
         <!-- Collapse button for navbar when screen is small -->
-        <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse"  id="navbar_button_small" data-bs-target="#nav_collapse">
+        <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#nav_collapse">
           <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Content of navbar -->
@@ -77,14 +77,11 @@
       <p id="inside_navbar_dot">.</p>
     </div>
 
-     <div class="home_header">
-       <div class="header_text">
-         <h1 class="header_website_name_styling">Chess Pinpoint</h1>
+     <div id="home_header">
+       <div id="header_text">
+         <h1 id="header_website_name_styling">Chess Pinpoint</h1>
          <p>From which website to play on to the openings to use</p>
        </div>
-     </div>
-
-     <div class="margin_below_navbar">
      </div>
 
     <!-- Profiles -->
@@ -93,7 +90,7 @@
         <h2>Learn and Play Chess</h2>
       </div>
       <div class="row row_layout rounded reveal fade-bottom" id="profiles_shadow">
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3" id="row_margin_bottom">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 row_margin_bottom">
           <div id="play_styling" class="bg-dark">
             <h5>Play</h5>
           </div>
@@ -151,7 +148,7 @@
           </div>
         </div>
         <!-- Next section -->
-        <div class="col-6 col-sm-6 col-md-6 col-lg-3" id="row_margin_bottom">
+        <div class="col-6 col-sm-6 col-md-6 col-lg-3 row_margin_bottom">
           <div id="learn_styling" class="bg-dark">
             <h5>Learn</h5>
           </div>
@@ -218,26 +215,26 @@
           <div class="container text-light rounded">
             <h3 id="website_rating_center" class="bg-light text-dark rounded p-2">Website Ranking</h3>
             <div class="reveal fade-left">
-              <p id="website_rating_margin"><a href="https://www.chess.com/" target=”_blank” class="text-light ranking_style">1. <span class="underline">Chess.com</span></a></p>
-              <blockquote cite="https://en.wikipedia.org/wiki/Chess.com" class="website_rating_info">An internet chess server, news website, and social networking website with 93+ million users</blockquote>
-              <p id="website_rating_margin"><a href="https://lichess.org/" target=”_blank” class="text-light ranking_style">2. <span class="underline">LiChess</span></a></p>
-              <blockquote cite="https://en.wikipedia.org/wiki/Lichess" class="website_rating_info">A free and open-source internet chess server run by a non-profit organization of the same name with 15+ million users</blockquote>
-              <p id="website_rating_margin"><a href="https://chess24.com/en" target=”_blank” class="text-light ranking_style">3. <span class="underline">Chess24</span></a></p>
-              <blockquote cite="https://en.wikipedia.org/wiki/Chess24" class="website_rating_info">An internet chess server established in 2014 by German grandmaster Jan Gustafsson and Enrique Guzman with an estimate 5+ million users</blockquote>
-              <p id="website_rating_margin"><a href="https://www.chessclub.com/" target=”_blank” class="text-light ranking_style">4. <span class="underline">ICC</span></a></p>
-              <blockquote cite="https://en.wikipedia.org/wiki/Internet_Chess_Club" class="website_rating_info">Internet Chess Club is a commercial internet chess server devoted to the play and discussion of chess and chess</blockquote>
-              <p id="website_rating_margin"><a href="http://playchess.com/" target=”_blank” class="text-light ranking_style">5. <span class="underline">PlayChess</span></a></p>
-              <blockquote cite="https://en.wikipedia.org/wiki/Playchess" class="website_rating_info">A commerical internet chess server managed by ChessBase devoted to the play and discussion of chess and chess variants</blockquote>
+              <p class="website_rating_margin"><a href="https://www.chess.com/" target=”_blank” class="text-light ranking_style">1. <span class="underline">Chess.com</span></a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Chess.com">An internet chess server, news website, and social networking website with 93+ million users</blockquote>
+              <p class="website_rating_margin"><a href="https://lichess.org/" target=”_blank” class="text-light ranking_style">2. <span class="underline">LiChess</span></a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Lichess">A free and open-source internet chess server run by a non-profit organization of the same name with 15+ million users</blockquote>
+              <p class="website_rating_margin"><a href="https://chess24.com/en" target=”_blank” class="text-light ranking_style">3. <span class="underline">Chess24</span></a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Chess24">An internet chess server established in 2014 by German grandmaster Jan Gustafsson and Enrique Guzman with an estimate 5+ million users</blockquote>
+              <p class="website_rating_margin"><a href="https://www.chessclub.com/" target=”_blank” class="text-light ranking_style">4. <span class="underline">ICC</span></a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Internet_Chess_Club">Internet Chess Club is a commercial internet chess server devoted to the play and discussion of chess and chess</blockquote>
+              <p class="website_rating_margin"><a href="http://playchess.com/" target=”_blank” class="text-light ranking_style">5. <span class="underline">PlayChess</span></a></p>
+              <blockquote cite="https://en.wikipedia.org/wiki/Playchess">A commerical internet chess server managed by ChessBase devoted to the play and discussion of chess and chess variants</blockquote>
             </div>
           </div>
         </div>
         <div class="col-6 col-sm-6 col-md-6 col-lg-6 p-3" id="complete_center">
-          <div class="row padding_right_five">
+          <div class="row" id="padding_right_five">
             <div class="col-12 col-sm-8 col-md-6 col-lg-6 center">
-              <img  class="rounded" id="website_rating_whiteimage" alt="Chess.com image white" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpeNfG7n.png">
+              <img  class="rounded" id="website_rating_white_image" alt="Chess.com image white" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpeNfG7n.png">
             </div>
             <div class="col-12 col-sm-8 col-md-6 col-lg-6 center">
-              <img class="rounded" id="website_rating_greenimage" alt="Chess.com image green background" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpET1Wem.png">
+              <img class="rounded" id="website_rating_green_image" alt="Chess.com image green background" src="https://images.chesscomfiles.com/uploads/v1/images_users/tiny_mce/PedroPinhata/phpET1Wem.png">
             </div>
           </div>
         </div>
