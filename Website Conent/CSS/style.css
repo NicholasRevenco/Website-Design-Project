@@ -127,11 +127,14 @@ hr {
   font-size: 20px;
 }
 
-/*.navbar_edge {
-  margin: -20px;
-  padding: 20px;
+.navbar_edge {
+  margin-left: -20px;
+  margin-right: -20px;
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
   margin-top: 0px;
-}*/
+}
 
 .underline {
   text-decoration: underline overline;
