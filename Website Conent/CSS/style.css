@@ -80,6 +80,14 @@ hr {
   padding: 5px;
 }
 
+.navbar_link_bottom {
+  margin-bottom: 0px;
+}
+
+.navbar_link_top {
+  margin-top: 18px;
+}
+
 .text_align_center {
   text-align: center;
 }
@@ -131,9 +139,10 @@ hr {
   margin-left: -20px;
   margin-right: -20px;
   padding: 15px;
+  padding-top: 0px;
+  padding-bottom: 7px;
   padding-left: 25px;
   padding-right: 25px;
-  margin-top: 0px;
 }
 
 .underline {
