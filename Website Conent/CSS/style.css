@@ -46,8 +46,10 @@ hr {
   margin-right: 5px;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: rgb(100, 100, 100) !important;
+  color: rgb(0, 0, 0) !important;
   background-color: rgb(246, 247, 249);
+  text-decoration: underline overline;
+  text-decoration-thickness: 3px;
 }
 
 #button_hover_search_id {
