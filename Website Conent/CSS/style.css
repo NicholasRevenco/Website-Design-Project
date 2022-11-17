@@ -52,15 +52,12 @@ hr {
   background-color: rgb(165, 165, 165) !important;
 }
 
-.remove_border:hover {
-}
-
 .remove_border:active {
   border-color: rgb(220, 219, 219) !important;
 }
 
 .nav_links_margin {
-  margin-top: 2.5px;
+  margin-top: 7px;
 }
 
 .carousel_image_styling {
@@ -85,7 +82,7 @@ hr {
 }
 
 .navbar_link_top {
-  margin-top: 18px;
+  margin-top: 0px;
 }
 
 .text_align_center {
@@ -139,8 +136,6 @@ hr {
   margin-left: -20px;
   margin-right: -20px;
   padding: 15px;
-  padding-top: 0px;
-  padding-bottom: 7px;
   padding-left: 25px;
   padding-right: 25px;
 }
@@ -391,4 +386,8 @@ hr {
 
 #inside_navbar_dot {
   color: rgb(36, 34, 32);
+}
+
+#smallest_hr {
+  margin-top: -13px;
 }
