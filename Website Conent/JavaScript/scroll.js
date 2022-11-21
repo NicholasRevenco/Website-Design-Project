@@ -20,5 +20,4 @@ function reveal() {
     }
   }
 }
-// Updates the window
 window.addEventListener("scroll", reveal);
